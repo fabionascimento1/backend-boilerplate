@@ -19,19 +19,16 @@
       "allowSyntheticDefaultImports": true,
       "baseUrl": ".",
       "paths": {
-        "@src/*": ["./src/*"],
-        "@test/*": ["./test/*"]
+        "@src/*": ["./src/*"]
       },
       "rootDirs": [
-        "./src",
-        "./test"
+        "./src"
       ],
       "experimentalDecorators": true,
       "emitDecoratorMetadata": true
     },
     "include": [
-      "./src/**/*.ts",
-      "./test/**/*.ts"
+      "./src/**/*.ts"
     ],
     "exclude": [
       "./node_modules/*",
