@@ -8,7 +8,7 @@ enum ExitStatus { Failure = 1, Success = 0,}
         await server.init()
         server.start()
     } catch (error) {
-        console.log("Erro star servidor")
+        console.log("Error start servidor")
         process.exit(ExitStatus.Failure)        
     }
 })()
